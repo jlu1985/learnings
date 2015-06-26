@@ -8,7 +8,8 @@
     <name>learnings</name>
     <modules>
         <module>learnings-core</module>
-    </modules>
+    <module>learnings-casperjs</module>
+  </modules>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
