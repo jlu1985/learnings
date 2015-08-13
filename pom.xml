@@ -10,6 +10,7 @@
         <module>learnings-core</module>
     <module>learnings-casperjs</module>
     <module>learnings-java</module>
+    <module>learnings-restx</module>
   </modules>
     <dependencies>
         <dependency>
