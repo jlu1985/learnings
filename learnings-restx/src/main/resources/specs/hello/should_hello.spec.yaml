@@ -1,0 +1,17 @@
+title: Say Hello
+given:
+    - time: 2015-08-06T20:19:00.590-04:00
+wts:
+    - when: |
+        GET hi2/restx
+      then: |
+        {"message":"Hi","name":"restx"}
+    - when: |
+        GET hi
+      then: |
+       {"message":"Hi","name":"guest"}
+    - when: |
+        POST body
+        {"message":"wow body","name":"restx"}
+      then: |
+        {"message":"wow body","name":"restx"}

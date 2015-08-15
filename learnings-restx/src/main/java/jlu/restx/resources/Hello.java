@@ -30,7 +30,7 @@ public class Hello {
     }
 
     @PermitAll
-    @GET("/hi/{who}")
+    @GET("/hi2/{who}")
     public Message sayHiWithPath(String who) {
         return new Message().setName(who).setMessage("Hi");
     }
