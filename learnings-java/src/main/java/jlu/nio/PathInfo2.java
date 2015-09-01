@@ -10,7 +10,7 @@ public class PathInfo2 {
 
 	public static void main(String[] args) throws IOException {
 		// get a path object with relative path
-		Path testFilePath = Paths.get("./Test");
+		Path testFilePath = Paths.get("src/main/resources/SaturnMoons.txt");
 		System.out.println("The file name is: " + testFilePath.getFileName());
 		System.out.println("It's URI is: " + testFilePath.toUri());
 		System.out.println("It's absolute path is: "
