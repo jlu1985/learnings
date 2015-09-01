@@ -13,7 +13,8 @@
     <module>learnings-restx</module>
     <module>learnings-slf4j-parent</module>
     <module>learnings-slf4j-sub</module>
-  </modules>
+    <module>learnings-powermock</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
