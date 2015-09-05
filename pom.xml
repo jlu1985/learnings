@@ -14,7 +14,8 @@
     <module>learnings-slf4j-parent</module>
     <module>learnings-slf4j-sub</module>
     <module>learnings-powermock</module>
-    </modules>
+    <module>learnings-jetty</module>
+  </modules>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
