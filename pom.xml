@@ -15,6 +15,7 @@
     <module>learnings-slf4j-sub</module>
     <module>learnings-powermock</module>
     <module>learnings-jetty</module>
+    <module>learnings-jaxrs</module>
   </modules>
     <dependencies>
         <dependency>
