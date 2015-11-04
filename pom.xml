@@ -16,6 +16,7 @@
     <module>learnings-powermock</module>
     <module>learnings-jetty</module>
     <module>learnings-jaxrs</module>
+    <module>learnings-hibernate</module>
   </modules>
     <dependencies>
         <dependency>
