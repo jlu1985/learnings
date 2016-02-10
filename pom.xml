@@ -17,7 +17,8 @@
     <module>learnings-jetty</module>
     <module>learnings-jaxrs</module>
     <module>learnings-hibernate</module>
-  </modules>
+    <module>learnings-spring-security</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
