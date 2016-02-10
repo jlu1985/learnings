@@ -8,10 +8,9 @@
 </head>
 <body>
 	Hello ${pageContext.request.remoteUser }
-${logoutUrl }
-	<form action="${logoutUrl}" method="post">
-		<input type="submit" value="Log out" />
-		 <input type="hidden"
+
+	<form action="" method="post">
+		<input type="submit" value="Log out" /> <input type="hidden"
 			name="${_csrf.parameterName }" value="${_csrf.token }" />
 	</form>
 </body>
