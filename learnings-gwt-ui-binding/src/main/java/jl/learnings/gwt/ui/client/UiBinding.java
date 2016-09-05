@@ -1,13 +1,17 @@
 package jl.learnings.gwt.ui.client;
 
 import com.google.gwt.core.client.EntryPoint;
+import com.google.gwt.user.client.ui.RootPanel;
 
-public class UiBinding implements EntryPoint{
+import jl.learnings.gwt.ui.client.hello.HelloWorld;
+
+public class UiBinding implements EntryPoint {
 
 	@Override
 	public void onModuleLoad() {
-		// TODO Auto-generated method stub
-		
+
+		RootPanel.get().add(new HelloWorld());
+
 	}
 
 }
